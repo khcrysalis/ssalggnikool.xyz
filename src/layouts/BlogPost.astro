@@ -57,22 +57,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                 text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
             }
         </style>
-        <style>
-            @keyframes slideInFromRight {
-                from { 
-                    opacity: 0; 
-                    transform: translateX(100%);
-                }
-                to { 
-                    opacity: 1; 
-                    transform: translateX(0);
-                }
-            }
-
-            main {
-                animation: slideInFromRight 0.4s ease-in-out;
-            }
-        </style>
     </head>
 
     <ViewTransitions/>

@@ -52,22 +52,6 @@ const posts = (await getCollection('blog')).sort(
 				border: 1px solid var(--site-tertiary-color);
 			}
 		</style>
-		<style>
-            @keyframes slideInFromRight {
-                from { 
-                    opacity: 0; 
-                    transform: translateX(100%);
-                }
-                to { 
-                    opacity: 1; 
-                    transform: translateX(0);
-                }
-            }
-
-            main {
-                animation: slideInFromRight 0.4s ease-in-out;
-            }
-        </style>
 	</head>
 	<ViewTransitions/>
 	<body>

@@ -1,6 +1,6 @@
 ---
 title: 'Bulk Deleting Messages via GDPR Compliance'
-description: ''
+description: 'This will show you how and why you can bulk delete messages'
 pubDate: 'Oct 23 2024'
 heroImage: '/blog/mass-deletion/mass_delete.png'
 tags: ['Discord']

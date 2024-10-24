@@ -26,6 +26,8 @@ They will also not process deletion request for messages associated with a delet
 
 ---
 
+This part of the blog will show you how to successfully* delete your messages within given channels/dms, without risking your account and by using Discord's built-in systems.
+
 ## Prerequisites
 
 - You **need** your Data Package for Discord to delete all your messages within a given channel, you can request this from Discord by going to

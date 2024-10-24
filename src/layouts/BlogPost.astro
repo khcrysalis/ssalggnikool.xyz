@@ -1,5 +1,5 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import { image, type CollectionEntry } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 
 import BaseHead from '../components/Blog/BaseHead.astro';
@@ -18,7 +18,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 <html lang="en">
     <head>
-        <BaseHead title={title} description={description} />
+        <BaseHead title={title} description={description} image={heroImage}/>
         <style>
             .date {
                 margin-bottom: 0.5em;

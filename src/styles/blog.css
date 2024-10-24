@@ -3,11 +3,12 @@
 sh
 ```
 */
-
 .astro-code {
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid #4a4d56;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 /* 

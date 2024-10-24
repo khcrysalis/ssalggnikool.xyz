@@ -3,6 +3,7 @@ title: 'Markdown Test'
 description: 'This blog just tests markdown stuff, nothing really special here'
 pubDate: 'Jul 08 2022'
 heroImage: '/blog-placeholder-3.jpg'
+tags: ['Test']
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.

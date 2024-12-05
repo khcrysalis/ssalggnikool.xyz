@@ -41,6 +41,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                 margin: 0;
                 text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
             }
+
+            @media (max-width: 600px) {
+                .hero-content h1, h2 {
+                    font-size: 1.2em;
+                }
+            }
             .hero-content .date {
                 color: var(--site-secondary-text-color);
                 text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);

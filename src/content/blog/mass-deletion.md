@@ -38,7 +38,7 @@ This part of the blog will show you how to successfully* delete your messages wi
 
 - You will also need the [bulk deletion helper](https://github.com/ishnz/bulk_deletion_helper) to obtain all message IDs you want to delete within a given channel. You can obtain this by running
 
-  ```
+  ```sh
   git clone https://github.com/ishnz/bulk_deletion_helper
   ```
 

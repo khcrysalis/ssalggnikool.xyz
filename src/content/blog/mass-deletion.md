@@ -36,9 +36,11 @@ This part of the blog will show you how to successfully* delete your messages wi
 
   This will take a few days to process depending on your total messgae count in general, however this is nothing to worry about.
 
-- You will also need https://github.com/ishnz/bulk_deletion_helper to obtain all message IDs you want to delete within a given channel. You can obtain this by running
+- You will also need the [bulk deletion helper](https://github.com/ishnz/bulk_deletion_helper) to obtain all message IDs you want to delete within a given channel. You can obtain this by running
 
-  `git clone https://github.com/ishnz/bulk_deletion_helper`
+  ```
+  git clone https://github.com/ishnz/bulk_deletion_helper
+  ```
 
 ## Obtaining Your Messages
 

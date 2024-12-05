@@ -65,7 +65,7 @@ You've gotten your Data Package contained in a zip file and you have the reposit
   python3 /path/to/script.py 
   ```
 
-  As you can see there's many python files you can run, to see how you can use the files see https://github.com/ishnz/bulk_deletion_helper?tab=readme-ov-file#behavior-of-scripts
+  As you can see there's many python files you can run, to see how you can use the files see [this](https://github.com/ishnz/bulk_deletion_helper?tab=readme-ov-file#behavior-of-scripts)
 
 Once finished, you will get a new file in your cloned directory called `messages.txt`, here are some example contents on how it would look like:
 
@@ -127,8 +127,8 @@ I've done this request myself and it has been successful, though for me it took 
 ---
 
 ## Links
-- Privacy Discussion: https://github.com/victornpb/undiscord/discussions/429
-- Bulk Deletion Helper: https://github.com/ishnz/bulk_deletion_helper
-- Report Template: https://github.com/victornpb/undiscord/discussions/429#discussioncomment-10312129
-- Contact Discord Privacy: https://support.discord.com/hc/en-us/requests/new?ticket_form_id=4750383925911
-- Video Guide: https://youtu.be/g5FbRfwMEuo?si=6vnAc3fdRUsagrTQ&t=418
+- [Privacy Discussion](https://github.com/victornpb/undiscord/discussions/429)
+- [Bulk Deletion Helper](https://github.com/ishnz/bulk_deletion_helper)
+- [Report Template](https://github.com/victornpb/undiscord/discussions/429#discussioncomment-10312129)
+- [Contact Discord Privacy](https://support.discord.com/hc/en-us/requests/new?ticket_form_id=4750383925911)
+- [Video Guide](https://youtu.be/g5FbRfwMEuo?si=6vnAc3fdRUsagrTQ&t=418)

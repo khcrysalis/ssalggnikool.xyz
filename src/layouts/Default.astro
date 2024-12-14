@@ -7,6 +7,8 @@ import Header from "../components/Header.astro";
 import "../styles/page.css";
 import "../styles/page_components.css";
 
+import OmgoshKorn from '../components/OmgoshKorn.astro';
+
 ---
 
 <!doctype html>
@@ -23,40 +25,13 @@ import "../styles/page_components.css";
     <ViewTransitions/>
 
     <body>
-        <script>
-            import 'sakana-widget/lib/index.css';
-            import SakanaWidget from 'sakana-widget';
-          
-            if (typeof window !== 'undefined') {
-                const github = SakanaWidget.getCharacter('chisato');
-                if (github) {
-                    github.image = `oh-mai-gotto.png`;
-                    github.initialState = {
-                        ...github.initialState,
-                        i: 0.0045,
-                        d: 0.992,
-                    };
-                    SakanaWidget.registerCharacter('github', github);
-                }
-                
-                const mountWidget = () => {
-                    const options = {
-                        character: 'github',
-                        controls: false
-                    };
-                    new SakanaWidget(options).mount('#sakana-widget');
-                };
-                
-                window.addEventListener('DOMContentLoaded', mountWidget);
-            }
-        </script>
         <Header/>
         <div>
             <main>
             <slot/>
             </main>
         </div>
-        <div id="sakana-widget" style="position: fixed;bottom: 0;right: 0;z-index: 99;"></div>
+        <OmgoshKorn/>
     </body>
     
 </html>

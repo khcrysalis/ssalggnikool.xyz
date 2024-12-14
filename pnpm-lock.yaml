@@ -26,6 +26,9 @@ importers:
       lit:
         specifier: ^3.1.4
         version: 3.1.4
+      sakana-widget:
+        specifier: ^2.7.0
+        version: 2.7.0
       svelte:
         specifier: ^3.54.0
         version: 3.59.2
@@ -600,6 +603,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@juggle/resize-observer@3.4.0':
+    resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
   '@lit-labs/ssr-dom-shim@1.2.0':
     resolution: {integrity: sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==}
@@ -1677,6 +1683,9 @@ packages:
   safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
 
+  sakana-widget@2.7.0:
+    resolution: {integrity: sha512-rxS4usEA2ZCIlgSIacITEsSF1htLPaaczrKKtBH78p6qKmtll4Bsmx+4cqfTsTi3GAxdIqF71DslZtVWxo6rpw==}
+
   sass-formatter@0.7.9:
     resolution: {integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==}
 
@@ -2548,6 +2557,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  '@juggle/resize-observer@3.4.0': {}
 
   '@lit-labs/ssr-dom-shim@1.2.0': {}
 
@@ -3919,6 +3930,11 @@ snapshots:
       mri: 1.2.0
 
   safe-buffer@5.2.1: {}
+
+  sakana-widget@2.7.0:
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      tslib: 2.6.3
 
   sass-formatter@0.7.9:
     dependencies:
